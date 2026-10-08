@@ -14,6 +14,8 @@ export default tseslint.config(
       '@typescript-eslint/explicit-function-return-type': 'warn',
       '@typescript-eslint/no-explicit-any': 'error',
       '@typescript-eslint/consistent-type-imports': 'error',
+      // за завданням Validation оформлено як namespace всередині модуля
+      '@typescript-eslint/no-namespace': 'off',
       'no-console': 'warn',
       eqeqeq: 'error',
       'prefer-const': 'error',
