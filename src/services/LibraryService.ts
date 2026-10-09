@@ -37,6 +37,10 @@ export class LibraryService {
     this.restore();
   }
 
+  getUser(id: Id): User | undefined {
+    return this.users.getById(id);
+  }
+
   getBooks(): Book[] {
     return this.books.getAll();
   }
